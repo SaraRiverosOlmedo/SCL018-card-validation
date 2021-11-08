@@ -16,17 +16,21 @@
       Ingresa aquí tu número de tarjeta de crédito para 
     </p>
     <p>  realizar la preautorización:</p>
-    <section class="card">
+    <main class="card">
+      <section class="inputText">
       <br>Tarjeta de Crédito N°</br>
      <input type="text" class="codeinput" id="codeinput">
+      </section>
+    <section class="selectcard">
      <br>Selecciona tipo de tarjeta</br>
-     <select name="optionsCard" id="optionsCards"></select>
-     <option value="Creditcard" selected disabled>Selecciona Aquí</option>
+     <select name="optionsCard" id="optionsCards">
      <option value="AmericanExpress">American Express</option>
      <option value="MasterCard">MasterCard</option>
      <option value="Visa">Visa</option>
      <option value="Diners">Diners</option>
+    </select>
     </section>
+    </main>
     <button class="btnValidarions" id="btnValidation">Validar</button>
     <footer>realizado por Sara Riveros Olmedo </footer>
     <script src="index.js" type="module"></script>
